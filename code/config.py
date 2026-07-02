@@ -9,6 +9,12 @@ HORIZONS = {
     '1 day':   144,
     '1 week':  1008,
 }
+FREQUENCIES = {
+    '10 min': 10,
+    '20 min': 20,
+    '30 min': 30,
+    '60 min': 60,
+}
 
 SPLIT_DATE = '2017-11-01'
 DATA_PATH = '../data/Tetuan_City_Power_Consumption.csv'
