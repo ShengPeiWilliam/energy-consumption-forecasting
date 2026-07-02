@@ -1,7 +1,5 @@
 # Tetouan City Energy Consumption Forecasting
 
-[![Full Report](https://img.shields.io/badge/📄_Read_Full_Report-PDF-blue?style=for-the-badge)](report/energy_report.pdf)
-
 10-minute interval power consumption forecasting across three distribution zones
 in Tetouan, Morocco (2017), using XGBoost with temporal feature engineering to
 reduce MAPE from 21--27% (ARIMA baseline) to **under 1%** in two of three zones.
@@ -125,13 +123,10 @@ Next steps:
 ```
 energy-consumption-forecasting/
 ├── code/
-│   └── energy_consumption_analysis.ipynb  # Full analysis pipeline
-├── data/
-│   └── Tetuan_City_Power_Consumption.csv  # Raw 10-min interval data
-├── figures/                                # EDA and model output plots
-├── report/                                 # LaTeX report and compiled PDF
-├── config.py                               # Paths and modeling constants
-└── requirements.txt                        # Python dependencies
+│   ├── energy_consumption_analysis.ipynb  # Full analysis pipeline
+│   ├── energy_consumption_analysis.html   # Rendered notebook for viewing
+│   └── config.py                          # Paths and modeling constants
+└── requirements.txt                       # Python dependencies
 ```
 
 ## Tools
